@@ -305,7 +305,7 @@ public class Textfield extends Controller< Textfield > {
 		theGraphics.fill( color.getBackground( ) );
 		theGraphics.pushMatrix( );
 		theGraphics.translate( x( position ) , y( position ) );
-		theGraphics.rect( 0 , 0 , getWidth( ) , getHeight( ) );
+		//theGraphics.rect( 0 , 0 , getWidth( ) , getHeight( ) );
 		theGraphics.noStroke( );
 
 		theGraphics.fill( _myColorCursor );
